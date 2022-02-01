@@ -1,0 +1,32 @@
+{
+  "name": "aspida-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen:aspida": "openapi2aspida -i https://petstore.swagger.io/v2/swagger.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turusuke/aspida-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turusuke/aspida-sandbox/issues"
+  },
+  "homepage": "https://github.com/turusuke/aspida-sandbox#readme",
+  "devDependencies": {
+    "@aspida/axios": "^1.7.1",
+    "@types/node": "^17.0.14",
+    "aspida-mock": "^0.8.2",
+    "axios": "^0.25.0",
+    "intermock": "^0.2.5",
+    "openapi2aspida": "^0.17.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
