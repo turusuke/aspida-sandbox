@@ -28,7 +28,7 @@ import { Methods as Methods11 } from './user/login'
 
 // prettier-ignore
 const api = <T>({ baseURL, fetch }: AspidaClient<T>) => {
-  const prefix = (baseURL === undefined ? 'https://petstore.swagger.io/v2' : baseURL).replace(/\/$/, '')
+  const prefix = (baseURL === undefined ? '' : baseURL).replace(/\/$/, '')
   const PATH0 = '/pet'
   const PATH1 = '/uploadImage'
   const PATH2 = '/pet/findByStatus'

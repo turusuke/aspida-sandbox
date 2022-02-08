@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "aspida && aspida-mock",
     "gen:aspida": "openapi2aspida -i https://petstore.swagger.io/v2/swagger.json"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "axios": "^0.25.0",
     "intermock": "^0.2.5",
     "openapi2aspida": "^0.17.0",
+    "prettier": "^2.5.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.5"
   }
