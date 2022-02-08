@@ -5,9 +5,9 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx ts-node sample.ts",
     "build": "aspida && aspida-mock",
-    "gen:aspida": "openapi2aspida -i https://petstore.swagger.io/v2/swagger.json"
+    "gen:aspida": "openapi2aspida -i https://petstore.swagger.io/v2/swagger.json",
   },
   "repository": {
     "type": "git",
